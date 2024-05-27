@@ -1,0 +1,96 @@
+.hero-container{
+    margin: 0px 100px;
+    margin-top: 150px;
+}
+.hero-text{
+    color: whitesmoke;
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 130px;
+
+}
+.hero-text p{
+    margin: 0;
+}
+.hero-explore{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    width: fit-content;
+    background-color: whitesmoke;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 5px ;
+    padding-left: 15px;
+    border-radius: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+.hero-explore img{
+    width:50px ;
+}
+.hero-dot-play{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero-dots{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+
+}
+.hero-dot{
+    width: 12px;
+    height: 12px;
+    background-color: whitesmoke;
+    border-radius:50px ;
+    cursor: pointer;
+}
+.hero-dot.orangered{
+    background-color: orangered;
+}
+
+.hero-play{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin-bottom: 10px; */
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.hero-play:hover{
+    transform: scale(1.05);
+}
+.hero-play img{
+    width:60px ;
+    cursor: pointer;
+}
+.hero-play p{
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+@media(max-width:500px){
+    .hero-text{
+        font-size: 70px;
+    }
+    .hero-explore{
+        gap: 5px;
+        font-size: 1em;
+    }
+    .hero-play img{
+        width:45px ;
+    }
+    .hero-play p{
+        font-weight: normal;
+    }
+    
+    
+}
